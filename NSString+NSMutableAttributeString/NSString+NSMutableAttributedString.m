@@ -104,7 +104,7 @@
     attachment.image = [UIImage imageNamed:imageName];
     attachment.bounds = bounds;
     NSAttributedString *attachmentStr = [NSAttributedString attributedStringWithAttachment:attachment];
-    [attrString insertAttributedString:attachmentStr atIndex:8];
+    [attrString insertAttributedString:attachmentStr atIndex:index];
     return attrString;
 }
 
